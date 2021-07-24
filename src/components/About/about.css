@@ -5,7 +5,7 @@
   margin-bottom: 8rem;
 }
 .Terminal_header {
-  height: 3.5rem;
+  height: 4rem;
   width: 100%;
   background-color: white;
   display: flex;
@@ -47,6 +47,7 @@
   flex-direction: column;
   color: white;
   margin-left: 2rem;
+  margin-top: 2rem;
 }
 .Terminal_aboutContent {
   margin: 1rem 0 1rem 0;
