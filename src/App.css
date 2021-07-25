@@ -1,6 +1,14 @@
 html {
   font-size: 62.5%;
   background-color: #ece2d0;
+  background: conic-gradient(
+    from 0.192turn,
+    #cdb4db,
+    #ffc8dd,
+    #ffafcc,
+    #bde0fe,
+    #a2d2ff
+  );
 }
 *,
 *::before,
@@ -13,12 +21,14 @@ body {
   font-size: 1.8rem;
   box-sizing: inherit;
   font-family: "Abel", sans-serif;
+  overflow-x: hidden;
 }
 
 .container {
   width: 100%;
   max-width: 104rem;
   margin: 0 auto;
+  padding: 0 5rem;
 }
 @font-face {
   font-family: chalk;

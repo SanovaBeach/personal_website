@@ -4,7 +4,15 @@ import { motion } from "framer-motion";
 
 const terminalVariants = {
   initial: { x: "200vw" },
-  animate: { x: 0 },
+  animate: {
+    x: 0,
+    transition: {
+      type: "spring",
+      stiffness: 120,
+      duration: 3,
+      delay: 1,
+    },
+  },
 };
 
 const About = ({ about }) => {
@@ -17,7 +25,9 @@ const About = ({ about }) => {
     >
       <div className="Terminal_header">
         <div className="Terminal_headerContainer">
-          <span className="Terminal_about">About Me</span>
+          <motion.span className="Terminal_about" pathLength={{ length: 1 }}>
+            About Me
+          </motion.span>
         </div>
       </div>
       <div className="Terminal_aboutContainer">

@@ -3,6 +3,19 @@ import "./projects.css";
 import { projects } from "../../content/projects";
 import { FaGithub } from "react-icons/fa";
 import { MdLiveTv } from "react-icons/md";
+import { motion } from "framer-motion";
+
+const linkVariants = {
+  hover: {
+    scale: 1.1,
+    textShadow: "0px 0px 8px rgb(255, 255,255)",
+    boxShadow: "0px 0px 8px rgb(0, 0,0)",
+    transition: {
+      yoyo: Infinity,
+      duration: 0.4,
+    },
+  },
+};
 
 const Projects = () => {
   return (
@@ -31,22 +44,26 @@ const Projects = () => {
 const ProjectLinks = ({ links }) => {
   return (
     <div className="Project_linksContainer">
-      <a
+      <motion.a
+        variants={linkVariants}
+        whileHover="hover"
         target="_blank"
         rel="noreferrer"
         href={links.live}
         className="Project_live"
       >
         Live <MdLiveTv className="Project_logo" />
-      </a>
-      <a
+      </motion.a>
+      <motion.a
+        variants={linkVariants}
+        whileHover="hover"
         target="_blank"
         rel="noreferrer"
         href={links.github}
         className="Project_github"
       >
         <FaGithub className="Project_logo" /> Github
-      </a>
+      </motion.a>
     </div>
   );
 };
