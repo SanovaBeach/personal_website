@@ -20,3 +20,7 @@ body {
   max-width: 104rem;
   margin: 0 auto;
 }
+@font-face {
+  font-family: chalk;
+  src: url(assets/chalk.ttf);
+}

@@ -1,20 +1,21 @@
 export const about = [
   {
-    input: "Laurence.currentLocation",
+    input: "Location",
     return: '"Bulacan, PH"',
   },
   {
-    input: "Laurence.contactInfo",
+    input: "Contact Info",
     return:
       '["<a target="_blank" href="mailto:laurencebalazo@gmail.com">laurencebalazo@gmail.com</a>", "<a rel="noopener" target="_blank" href="https://www.linkedin.com/in/laurence-balazo-51a782216/">LinkedIn</a>", "<a rel="noopener" target="_blank" href="https://github.com/SanovaBeach">Github</a>]',
   },
   {
-    input: "Laurence.interests",
-    return: '["Reading", "Watching", "Video Games", "Jogging"]',
+    input: "Interests",
+    return:
+      '["Reading Books", "Watching TV Shows, Movies and Documentaries", "Video Games", "Jogging"]',
   },
 
   {
-    input: "Laurence.skills",
-    return: '["Sass", "JavaScript",  "React", "git"]',
+    input: "Skills",
+    return: '["HTML", "CSS", "Sass", "JavaScript",  "React", "git"]',
   },
 ];

@@ -1,17 +1,23 @@
 import React from "react";
 import "./about.css";
+import { motion } from "framer-motion";
+
+const terminalVariants = {
+  initial: { x: "200vw" },
+  animate: { x: 0 },
+};
 
 const About = ({ about }) => {
   return (
-    <div className="Terminal">
+    <motion.div
+      className="Terminal"
+      variants={terminalVariants}
+      initial="initial"
+      animate="animate"
+    >
       <div className="Terminal_header">
         <div className="Terminal_headerContainer">
           <span className="Terminal_about">About Me</span>
-          <ul className="Terminal_ui">
-            <li className="Terminal_item line"></li>
-            <li className="Terminal_item box"></li>
-            <li className="Terminal_item">X</li>
-          </ul>
         </div>
       </div>
       <div className="Terminal_aboutContainer">
@@ -27,7 +33,7 @@ const About = ({ about }) => {
           );
         })}
       </div>
-    </div>
+    </motion.div>
   );
 };
 

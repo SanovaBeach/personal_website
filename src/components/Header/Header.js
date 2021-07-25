@@ -1,7 +1,6 @@
 import React from "react";
 import "./header.css";
 import { motion } from "framer-motion";
-import laurence from "./laurence.svg";
 
 const headerVariants = {
   initial: {
@@ -35,7 +34,7 @@ const Header = () => {
       animate="animate"
     >
       <h1 className="Header_title">
-      Laurence Balazo
+        Laurence Balazo
         <motion.div
           variants={titleVariants}
           className="Header_span"
