@@ -1,5 +1,5 @@
 import React from "react";
-import "./projects.css";
+import "./projects.scss";
 import { projects } from "../../content/projects";
 import { FaGithub } from "react-icons/fa";
 import { MdLiveTv } from "react-icons/md";
@@ -20,16 +20,16 @@ const linkVariants = {
 const Projects = () => {
   return (
     <div className="Projects">
-      <h1 className="Projects_title">Projects</h1>
+      <h1 className="Projects_heading">Projects</h1>
       <div className="Projects_container">
         {projects.map((project, index) => {
           const { image, title, description, skills, links } = project;
           return (
-            <div className="Project_content" key={index}>
-              <img src={image} alt="" className="Project_image" />
-              <div className="Project_right">
-                <h3 className="Project_title">{title}</h3>
-                <p className="Project_desc">{description}</p>
+            <div className="Projects_content" key={index}>
+              <img src={image} alt="" className="Projects_image" />
+              <div className="Projects_right">
+                <h3 className="Projects_title">{title}</h3>
+                <p className="Projects_desc">{description}</p>
                 <ProjectSkills skills={skills} />
                 <ProjectLinks links={links} />
               </div>
@@ -43,16 +43,16 @@ const Projects = () => {
 
 const ProjectLinks = ({ links }) => {
   return (
-    <div className="Project_linksContainer">
+    <div className="Projects_linksContainer">
       <motion.a
         variants={linkVariants}
         whileHover="hover"
         target="_blank"
         rel="noreferrer"
         href={links.live}
-        className="Project_live"
+        className="Projects_live"
       >
-        Live <MdLiveTv className="Project_logo" />
+        Live <MdLiveTv className="Projects_logo" />
       </motion.a>
       <motion.a
         variants={linkVariants}
@@ -60,9 +60,9 @@ const ProjectLinks = ({ links }) => {
         target="_blank"
         rel="noreferrer"
         href={links.github}
-        className="Project_github"
+        className="Projects_github"
       >
-        <FaGithub className="Project_logo" /> Github
+        <FaGithub className="Projects_logo" /> Github
       </motion.a>
     </div>
   );
@@ -70,7 +70,7 @@ const ProjectLinks = ({ links }) => {
 
 const ProjectSkills = ({ skills }) => {
   return (
-    <div className="Project_skillContainer">
+    <div className="Projects_skillContainer">
       {skills &&
         skills.map((skill, index) => {
           return <ProjectSkill key={index} skill={skill} />;
@@ -80,7 +80,7 @@ const ProjectSkills = ({ skills }) => {
 };
 
 const ProjectSkill = ({ skill }) => {
-  return <span className="Project_skill">{skill}</span>;
+  return <span className="Projects_skill">{skill}</span>;
 };
 
 export default Projects;

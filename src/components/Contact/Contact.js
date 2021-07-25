@@ -1,5 +1,5 @@
 import React from "react";
-import "./contact.css";
+import "./contact.scss";
 import { FaLinkedin } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import { motion } from "framer-motion";
