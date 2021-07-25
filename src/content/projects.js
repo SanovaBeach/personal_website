@@ -29,10 +29,10 @@ export const projects = [
     image: personal,
     title: "Portfolio Website",
     description: "This is my personal website.",
-    skills: ["HTML", "CSS", "React"],
+    skills: ["HTML", "SCSS", "React"],
     links: {
-      live: "https://eats-me.netlify.app/",
-      github: "https://github.com/SanovaBeach/EatsMe",
+      live: "https://laurencebalazo.netlify.app/",
+      github: "https://github.com/SanovaBeach/personal_website",
     },
   },
 ];
