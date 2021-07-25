@@ -19,7 +19,7 @@ export const projects = [
     title: "EatsMe",
     description:
       "EatsMe is a food review blog I made using Contentful. It shows foods that has been reviewed, it has recommended and category of food.",
-    skills: ["HTML", "SCSS", "React", "Contentful (CMS)"],
+    skills: ["HTML", "SCSS", "React", "Contentful (CMS)", "axios"],
     links: {
       live: "https://eats-me.netlify.app/",
       github: "https://github.com/SanovaBeach/EatsMe",
