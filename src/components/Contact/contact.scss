@@ -1,3 +1,5 @@
+@import "../../styles/variables.scss";
+
 .Contact {
   background: conic-gradient(
     from 0.192turn,
@@ -7,15 +9,16 @@
     #bde0fe,
     #a2d2ff
   );
-
   height: 20rem;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
   &_title {
     margin-top: 2.5rem;
   }
+
   &_container {
     display: flex;
     justify-content: space-around;
@@ -24,6 +27,19 @@
     color: black;
     height: 30rem;
     width: 50rem;
+
+    @media screen and (max-width: $xsmall) {
+      flex-direction: column;
+    }
+  }
+
+  &_info {
+    display: flex;
+    align-items: center;
+
+    @media screen and (max-width: $xsmall) {
+      flex-direction: column;
+    }
   }
 
   &_type {

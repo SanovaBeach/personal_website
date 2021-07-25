@@ -4,11 +4,16 @@ html {
   background-color: #ece2d0;
   background: conic-gradient(
     from 0.192turn,
-    #cdb4db,
-    #ffc8dd,
     #ffafcc,
+    #ffc8dd,
+    #cdb4db,
+    #03045e,
     #bde0fe,
-    #a2d2ff
+    #a2d2ff,
+    #48cae4,
+    #a0c4ff,
+    #00b4d8,
+    #90e0ef
   );
 }
 *,
@@ -33,6 +38,9 @@ body {
 
   @media screen and (max-width: $medium) {
     padding: 0 2rem;
+  }
+  @media screen and (max-width: $xsmall) {
+    padding: 0 0.5rem;
   }
 }
 

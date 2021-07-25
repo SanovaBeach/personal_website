@@ -31,8 +31,6 @@ const Contact = () => {
             <SiGmail className="Contact_logo" />
             laurencebalazo@gmail.com
           </motion.a>
-        </div>
-        <div className="Contact_info">
           <motion.a
             variants={linkVariants}
             whileHover="hover"

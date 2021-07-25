@@ -16,6 +16,9 @@
     @media screen and (max-width: $medium) {
       font-size: 4rem;
     }
+    @media screen and (max-width: $xsmall) {
+      font-size: 3rem;
+    }
   }
   &_title::before {
     content: ">";
@@ -34,6 +37,9 @@
     @media screen and (max-width: $medium) {
       height: 5rem;
     }
+    @media screen and (max-width: $xsmall) {
+      height: 4rem;
+    }
   }
   &_description {
     font-size: 2.4rem;
@@ -43,6 +49,10 @@
     color: rgb(26, 21, 21);
     @media screen and (max-width: $medium) {
       font-size: 2rem;
+      margin-top: 1.5rem;
+    }
+    @media screen and (max-width: $xsmall) {
+      font-size: 1.8rem;
       margin-top: 1.5rem;
     }
   }

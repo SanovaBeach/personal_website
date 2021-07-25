@@ -10,7 +10,7 @@ const terminalVariants = {
       type: "spring",
       stiffness: 120,
       duration: 3,
-      delay: 1,
+      delay: 0.5,
     },
   },
 };
