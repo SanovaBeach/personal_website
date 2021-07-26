@@ -1,6 +1,4 @@
-import eatsme from "../assets/eatsme.png";
-import filmnion from "../assets/filmnion.png";
-import personal from "../assets/personal.png";
+import testimonial from "../assets/testimonial.png";
 import blogr from "../assets/blogr.png";
 import eatsme2 from "../assets/eatsme2.png";
 import filmnion2 from "../assets/filmnion2.png";
@@ -47,6 +45,16 @@ export const projects = [
     links: {
       live: "https://frontend-blogr.netlify.app/",
       github: "https://github.com/SanovaBeach/blogr",
+    },
+  },
+  {
+    image: testimonial,
+    title: "Blogr",
+    description: "This is a challenge in Frontendmentor. Note: Not Responsive",
+    skills: ["HTML", "SCSS"],
+    links: {
+      live: "https://sanovabeach.github.io/testimonal_grid/",
+      github: "https://github.com/SanovaBeach/testimonal_grid",
     },
   },
 ];
