@@ -2,10 +2,13 @@ import eatsme from "../assets/eatsme.png";
 import filmnion from "../assets/filmnion.png";
 import personal from "../assets/personal.png";
 import blogr from "../assets/blogr.png";
+import eatsme2 from "../assets/eatsme.png";
+import filmnion2 from "../assets/filmnion.png";
+import personal2 from "../assets/personal.png";
 
 export const projects = [
   {
-    image: filmnion,
+    image: filmnion2,
     title: "Filmnion",
     description:
       "Filmnion is a movie and tv shows search, inspired by netflix layout and IMDB. You can search movies and tv shows, check the details, actors, and episodes.",
@@ -16,7 +19,7 @@ export const projects = [
     },
   },
   {
-    image: eatsme,
+    image: eatsme2,
     title: "EatsMe",
     description:
       "EatsMe is a food review blog I made using Contentful. It shows foods that has been reviewed, it has recommended and category of food.",
@@ -27,7 +30,7 @@ export const projects = [
     },
   },
   {
-    image: personal,
+    image: personal2,
     title: "Portfolio Website",
     description: "This is my personal website.",
     skills: ["HTML", "SCSS", "React"],
