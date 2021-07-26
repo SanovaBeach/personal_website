@@ -49,7 +49,7 @@ export const projects = [
   },
   {
     image: testimonial,
-    title: "Blogr",
+    title: "Testimonial Grid",
     description: "This is a challenge in Frontendmentor. Note: Not Responsive",
     skills: ["HTML", "SCSS"],
     links: {
