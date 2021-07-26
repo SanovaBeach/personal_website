@@ -1,6 +1,7 @@
 import eatsme from "../assets/eatsme.png";
 import filmnion from "../assets/filmnion.png";
 import personal from "../assets/personal.png";
+import blogr from "../assets/blogr.png";
 
 export const projects = [
   {
@@ -33,6 +34,16 @@ export const projects = [
     links: {
       live: "https://laurencebalazo.netlify.app/",
       github: "https://github.com/SanovaBeach/personal_website",
+    },
+  },
+  {
+    image: blogr,
+    title: "Blogr",
+    description: "This is a challenge in Frontendmentor.",
+    skills: ["HTML", "SCSS", "React"],
+    links: {
+      live: "https://frontend-blogr.netlify.app/",
+      github: "https://github.com/SanovaBeach/blogr",
     },
   },
 ];
