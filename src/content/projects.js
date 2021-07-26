@@ -2,9 +2,9 @@ import eatsme from "../assets/eatsme.png";
 import filmnion from "../assets/filmnion.png";
 import personal from "../assets/personal.png";
 import blogr from "../assets/blogr.png";
-import eatsme2 from "../assets/eatsme.png";
-import filmnion2 from "../assets/filmnion.png";
-import personal2 from "../assets/personal.png";
+import eatsme2 from "../assets/eatsme2.png";
+import filmnion2 from "../assets/filmnion2.png";
+import personal2 from "../assets/personal2.png";
 
 export const projects = [
   {
