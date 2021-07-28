@@ -1,5 +1,6 @@
 import testimonial from "../assets/testimonial.png";
 import blogr from "../assets/blogr.png";
+import timenow from "../assets/timenow.png";
 import eatsme2 from "../assets/eatsme2.png";
 import filmnion2 from "../assets/filmnion2.png";
 import personal2 from "../assets/personal2.png";
@@ -40,11 +41,22 @@ export const projects = [
   {
     image: blogr,
     title: "Blogr",
-    description: "This is a challenge in Frontendmentor.",
+    description: "This is a challenge in Frontendmentor. ",
     skills: ["HTML", "SCSS", "React"],
     links: {
       live: "https://frontend-blogr.netlify.app/",
       github: "https://github.com/SanovaBeach/blogr",
+    },
+  },
+  {
+    image: timenow,
+    title: "TimeNow",
+    description:
+      "This is a challenge in CodeWell. It consist of 2 pages, a homepage and a pricing page.",
+    skills: ["HTML", "SCSS", "React"],
+    links: {
+      live: "https://codewell-timenow-1.netlify.app/",
+      github: "https://github.com/SanovaBeach/timenow",
     },
   },
   {

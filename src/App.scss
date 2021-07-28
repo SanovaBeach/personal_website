@@ -4,16 +4,11 @@ html {
   background-color: #ece2d0;
   background: conic-gradient(
     from 0.192turn,
-    #ffafcc,
-    #ffc8dd,
     #cdb4db,
-    #03045e,
+    #ffc8dd,
+    #ffafcc,
     #bde0fe,
-    #a2d2ff,
-    #48cae4,
-    #a0c4ff,
-    #00b4d8,
-    #90e0ef
+    #a2d2ff
   );
 }
 *,
@@ -48,3 +43,14 @@ body {
   font-family: chalk;
   src: url(assets/chalk.ttf);
 }
+
+// #ffafcc,
+// #ffc8dd,
+// #cdb4db,
+// #03045e,
+// #bde0fe,
+// #a2d2ff,
+// #48cae4,
+// #a0c4ff,
+// #00b4d8,
+// #90e0ef
