@@ -16,6 +16,7 @@ export const about = [
 
   {
     input: "Skills",
-    return: '["HTML", "CSS", "Sass", "JavaScript",  "React", "git"]',
+    return:
+      '["HTML", "CSS", "Sass", "JavaScript",  "React", "git", "styled-components"]',
   },
 ];

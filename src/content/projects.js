@@ -4,6 +4,7 @@ import timenow from "../assets/timenow.png";
 import eatsme2 from "../assets/eatsme2.png";
 import filmnion2 from "../assets/filmnion2.png";
 import personal2 from "../assets/personal2.png";
+import fastcash from "../assets/fastcash.png";
 
 export const projects = [
   {
@@ -26,6 +27,17 @@ export const projects = [
     links: {
       live: "https://eats-me.netlify.app/",
       github: "https://github.com/SanovaBeach/EatsMe",
+    },
+  },
+  {
+    image: fastcash,
+    title: "FastCash",
+    description:
+      "FastCash is a digital-bank, mobile wallet, mobile payments, bankless app. ",
+    skills: ["HTML", "styled-components"],
+    links: {
+      live: "https://fastcash.netlify.app/",
+      github: "https://github.com/SanovaBeach/FastCash",
     },
   },
   {
